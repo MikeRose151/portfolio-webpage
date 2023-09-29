@@ -4,9 +4,21 @@ body {
   padding: 0;
 }
 
+/* Before adding styling to header, the header was below the navbar so I did this */
+header {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 100;
+}
+
 h1 {
   color: rgba(rgb(38, 24, 102), green, blue, alpha);
   font-family: "signika-negative", serif;
+}
+
+.container {
+  margin: 0px 160px;
 }
 
 #main-content {
