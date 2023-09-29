@@ -17,6 +17,15 @@ h1 {
   font-family: "signika-negative", serif;
 }
 
+a {
+  color: green;
+  text-decoration: none;
+}
+
+a:hover {
+  color: rgba(0, 128, 0, 0.5);
+}
+
 .container {
   margin: 0px 160px;
 }
@@ -34,6 +43,11 @@ h1 {
   margin: 0px 160px;
   position: fixed; /* navbar stays top of screen when scrolling */
   top: 0;
+}
+
+.name {
+  color: purple;
+  font-family: 'Courier New', Courier, monospace;
 }
 
 .menu {
