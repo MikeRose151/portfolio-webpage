@@ -19,3 +19,9 @@ h1 {
   top: 0;
   width: 100%;
 }
+
+#menu {
+  display: flex; /* makes the list horizontal */
+  justify-content: space-around; /* gives each list item space */
+  list-style-type: none; /* removes the bullet point from the list */
+}
