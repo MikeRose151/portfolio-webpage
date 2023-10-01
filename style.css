@@ -35,9 +35,11 @@ a:hover {
 }
 
 .nav {
-  background-color: rgba(0, 255, 238, 0.198);
+  align-items: center;
   border-bottom: 1px solid rgba(0, 0, 0, 0.05);
+  display: flex;
   height: 64px;
+  justify-content: space-between;
   left: 0;
   right: 0;
   margin: 0px 160px;
@@ -47,11 +49,24 @@ a:hover {
 
 .name {
   color: purple;
-  font-family: 'Courier New', Courier, monospace;
+  font-family: "Courier New", Courier, monospace;
+  padding: 0 4%;
+  text-align: center;
+}
+
+.social-media {
+  color: gold;
+  padding: 0 4%;
+  text-align: center;
 }
 
 .menu {
   display: flex; /* makes the list horizontal */
-  justify-content: space-around; /* gives each list item space */
+  justify-content: space-between; /* gives each list item space */
   list-style-type: none; /* removes the bullet point from the list */
+  margin: 0 16%;
+  margin-block-start: 0; /* removes pre-determined positioning for ul */
+  margin-block-end: 0; /* removes pre-determined positioning for ul */
+  padding-inline-start: 0; /* removes pre-determined positioning for ul */
+  width: 100%;
 }
