@@ -73,6 +73,15 @@ a:hover {
   text-align: center;
 }
 
+.intro {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.intro-message {
+  width: fit-content;
+}
+
 .intro-image img {
   width: 200px; /* Set the desired width */
   height: auto; /* Maintain aspect ratio */
