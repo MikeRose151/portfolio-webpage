@@ -54,9 +54,22 @@ a:hover {
   text-align: center;
 }
 
-.social-media a {
+.social-media {
+  display: flex;
+  justify-content: space-between;
+  padding: 2%;
+  width: 6%;
+}
+
+.social-media-item a {
   color: gold;
-  padding: 0 0.4%;
+  padding: 0 4%;
+  text-align: center;
+}
+
+.social-media-item a:hover {
+  color: rgba(255, 217, 0, 0.5);
+  padding: 0 4%;
   text-align: center;
 }
 
