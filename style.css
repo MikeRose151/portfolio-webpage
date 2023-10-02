@@ -30,7 +30,7 @@ a:hover {
   margin: 0px 160px;
 }
 
-#main-content {
+.main-content {
   margin-top: 64px;
 }
 
@@ -71,6 +71,12 @@ a:hover {
   color: rgba(255, 217, 0, 0.5);
   padding: 0 4%;
   text-align: center;
+}
+
+.intro-image img {
+  width: 200px; /* Set the desired width */
+  height: auto; /* Maintain aspect ratio */
+  border-radius: 50%;
 }
 
 .menu {
