@@ -22,10 +22,34 @@
 .projects-display {
   display: flex;
   justify-content: space-between;
+  width: fit-content;
 }
 
 .projects-display-card {
   border: solid purple 1px;
-  padding: 8%;
-  width: 160px;
+  height: 400px;
+  width: 400px;
+  position: relative;
+}
+
+.projects-display-card-title {
+  color: purple;
+  background-color: green;
+  bottom: 0;
+  text-align: center;
+  position: absolute;
+  height: 16%;
+  width: 100%;
+}
+
+.project-display-card-image-tat {
+  background-image: url(../images/tip-a-trip-screenshot.png);
+  background-size: cover;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  filter: blur(1px); /* Adjust the blur amount as needed */
+  z-index: -1;
 }
