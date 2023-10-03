@@ -1,6 +1,7 @@
 /* Reset default margin and padding */
 body {
   margin: 0;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
   padding: 0;
 }
 
@@ -14,7 +15,6 @@ body {
 
 h1 {
   color: rgba(rgb(38, 24, 102), green, blue, alpha);
-  font-family: "signika-negative", serif;
 }
 
 a {
