@@ -1,0 +1,35 @@
+/* Reset default margin and padding */
+body {
+  margin: 0;
+  padding: 0;
+}
+
+/* Before adding styling to header, the header was below the navbar so I did this */
+.header {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 100;
+}
+
+h1 {
+  color: rgba(rgb(38, 24, 102), green, blue, alpha);
+  font-family: "signika-negative", serif;
+}
+
+a {
+  color: green;
+  text-decoration: none;
+}
+
+a:hover {
+  color: rgba(0, 128, 0, 0.5);
+}
+
+.container {
+  margin: 0px 160px;
+}
+
+.main-content {
+  margin-top: 64px;
+}

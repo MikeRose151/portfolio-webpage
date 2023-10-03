@@ -1,0 +1,20 @@
+.intro {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.intro-message {
+  border: 2px solid;
+  border-color: purple;
+  border-radius: 8px;
+  padding: 2%;
+  width: fit-content;
+}
+
+.intro-image img {
+  border: 2px solid;
+  border-color: purple;
+  border-radius: 50%;
+  width: 200px; /* Set the desired width */
+  height: auto; /* Maintain aspect ratio */
+}
