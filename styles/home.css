@@ -18,3 +18,14 @@
   width: 200px; /* Set the desired width */
   height: auto; /* Maintain aspect ratio */
 }
+
+.projects-display {
+  display: flex;
+  justify-content: space-between;
+}
+
+.projects-display-card {
+  border: solid purple 1px;
+  padding: 8%;
+  width: 160px;
+}
