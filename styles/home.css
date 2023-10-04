@@ -64,7 +64,7 @@
   left: 0;
   width: 100%;
   height: 100%;
-  filter: blur(4px); /* Adjust the blur amount as needed */
+  filter: blur(4px);
   z-index: -1;
 }
 
