@@ -33,7 +33,6 @@
 
 #projects {
   border-top: 4px rgba(171, 171, 171, 0.484) solid;
-  border-bottom: 4px rgba(171, 171, 171, 0.484) solid;
   padding-bottom: 80px;
   scroll-margin-top: 64px;
 }
@@ -97,5 +96,7 @@
 }
 
 #contact {
+  border-top: 4px rgba(171, 171, 171, 0.484) solid;
   padding-bottom: 80px;
+  scroll-margin-top: 64px;
 }
