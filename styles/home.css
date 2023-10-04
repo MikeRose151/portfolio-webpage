@@ -23,17 +23,20 @@
 .projects {
   border-top: 4px rgba(171, 171, 171, 0.484) solid;
   border-bottom: 4px rgba(171, 171, 171, 0.484) solid;
-  margin: 160px 0;
+  padding-bottom: 80px;
 }
 
 .projects-display {
+  border: purple solid 4px;
+  border-radius: 8px;
   display: flex;
   justify-content: space-between;
   width: fit-content;
 }
 
 .projects-display-card {
-  border: solid purple 1px;
+  border: solid purple 2px;
+  border-radius: 4px;
   height: 400px;
   width: 400px;
   position: relative;
@@ -42,6 +45,7 @@
 .projects-display-card-title {
   color: green;
   background-color: gold;
+  border-top: purple 1px solid;
   bottom: 0;
   text-align: center;
   font-size: 24px;
@@ -77,4 +81,8 @@
 
 #project-display-card-image-rent-a-reptile {
   background-image: url(../images/rent-a-reptile_screenshot.png);
+}
+
+.contact {
+  padding-bottom: 80px;
 }

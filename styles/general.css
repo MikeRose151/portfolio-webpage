@@ -1,7 +1,8 @@
 /* Reset default margin and padding */
 body {
   margin: 0;
-  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
   padding: 0;
 }
 
@@ -32,4 +33,14 @@ a:hover {
 
 .main-content {
   margin-top: 64px;
+}
+
+.footer {
+  background-color: purple;
+  bottom: 0;
+  color: gold;
+  padding: 8px 0;
+  text-align: center;
+  width: 100%;
+  z-index: 100;
 }
