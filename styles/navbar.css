@@ -34,7 +34,7 @@
 .social-media {
   display: flex;
   justify-content: space-between;
-  padding: 4%;
+  padding-left: 4%;
   width: 6%;
 }
 

@@ -1,4 +1,4 @@
-.intro {
+#intro {
   display: flex;
   justify-content: space-evenly;
   margin: 256px 0;
@@ -30,10 +30,12 @@
   height: auto;
 }
 
-.projects {
+#projects {
   border-top: 4px rgba(171, 171, 171, 0.484) solid;
   border-bottom: 4px rgba(171, 171, 171, 0.484) solid;
   padding-bottom: 80px;
+  scroll-margin-top: 64px; /* Match the height of your navbar */
+
 }
 
 .projects-display {
@@ -94,6 +96,6 @@
   background-image: url(../images/rent-a-reptile_screenshot.png);
 }
 
-.contact {
+#contact {
   padding-bottom: 80px;
 }
