@@ -9,15 +9,25 @@
   border-color: purple;
   border-radius: 8px;
   padding: 2%;
-  width: fit-content;
+  position: relative;
+  width: 72%;
+}
+
+.intro-message p a {
+  text-decoration: underline;
+}
+
+#intro-more-link {
+  position: absolute;
+  right: 4%;
 }
 
 .intro-image img {
   border: 2px solid;
   border-color: purple;
   border-radius: 50%;
-  width: 200px; /* Set the desired width */
-  height: auto; /* Maintain aspect ratio */
+  width: 200px;
+  height: auto;
 }
 
 .projects {
