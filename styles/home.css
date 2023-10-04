@@ -2,6 +2,7 @@
   display: flex;
   justify-content: space-evenly;
   margin: 256px 0;
+  scroll-margin-top: 256px;
 }
 
 .intro-message {
@@ -34,8 +35,7 @@
   border-top: 4px rgba(171, 171, 171, 0.484) solid;
   border-bottom: 4px rgba(171, 171, 171, 0.484) solid;
   padding-bottom: 80px;
-  scroll-margin-top: 64px; /* Match the height of your navbar */
-
+  scroll-margin-top: 64px;
 }
 
 .projects-display {
