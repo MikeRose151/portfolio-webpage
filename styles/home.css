@@ -5,17 +5,28 @@
   scroll-margin-top: 256px;
 }
 
-.intro-message {
+#intro-message {
   /* border: 2px solid; */
   /* border-color: purple; */
   /* border-radius: 8px; */
   line-height: 1.5;
-  padding: 0 2%;
+  /* padding: 0 2%; */
   position: relative;
-  width: 72%;
+  width: 68%;
 }
 
-.intro-message p a {
+#intro-title {
+  font-size: 36px;
+  margin-bottom: 16px;
+}
+
+#intro-paragraph {
+  text-align: justify;
+  font-size: 20px;
+  line-height: 1.5;
+}
+
+#intro-paragraph a {
   text-decoration: underline;
 }
 
@@ -24,12 +35,12 @@
   /* right: 4%; */
 }
 
-.intro-image img {
+#intro-image img {
   /* border: 1px solid; */
   /* border-color: purple; */
   border-radius: 50%;
   box-shadow: purple 0px 1px 4px;
-  width: 200px;
+  width: 240px;
   height: auto;
 }
 
