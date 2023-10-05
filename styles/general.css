@@ -18,12 +18,8 @@ body {
   z-index: 100;
 }
 
-h1 {
-  color: rgba(rgb(38, 24, 102), green, blue, alpha);
-}
-
 a {
-  color: green;
+  color: rgb(0, 100, 0);
   text-decoration: none;
 }
 
@@ -44,9 +40,9 @@ mark {
 }
 
 .footer {
-  background-color: purple;
+  background-color: rgb(100, 0, 100);
   bottom: 0;
-  color: gold;
+  color: white;
   font-size: 12px;
   border-top: black 0.5px solid;
   padding: 10px 0;
