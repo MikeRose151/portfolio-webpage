@@ -9,7 +9,7 @@
   /* border: 2px solid; */
   /* border-color: purple; */
   /* border-radius: 8px; */
-  color: rgb(100, 0, 100);
+  /* color: rgb(100, 0, 100); */
   line-height: 1.5;
   /* padding: 0 2%; */
   position: relative;
@@ -41,7 +41,7 @@
   /* border: 1px solid; */
   /* border-color: purple; */
   border-radius: 50%;
-  box-shadow: rgb(100,0,100) 0px 1px 4px;
+  box-shadow: rgb(100, 0, 100) 0px 1px 4px;
   width: 240px;
   height: auto;
 }
@@ -61,7 +61,7 @@
 }
 
 .projects-display-card {
-  border: solid  black 1px;
+  border: solid black 1px;
   border-radius: 2px;
   height: 400px;
   width: 400px;
@@ -93,6 +93,7 @@
   width: 100%;
   height: 100%;
   filter: blur(4px);
+  transition: filter 0.5s ease-in-out;
   z-index: -1;
 }
 
@@ -108,7 +109,7 @@
   background-image: url(../images/ten-number-challenge_screenshot.png);
 }
 
-#project-display-card-image-rent-a-reptile {
+#project-display-card-image-rar {
   background-image: url(../images/rent-a-reptile_screenshot.png);
 }
 
