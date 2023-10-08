@@ -75,6 +75,7 @@
   position: absolute;
   height: 24%;
   width: 100%;
+  transition: height 0.5s ease-in-out 0.25s;
 }
 
 .projects-display-card-title-text {
