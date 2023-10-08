@@ -15,16 +15,22 @@ projectCardIds.forEach((projectCardId) => {
   const titleCard = document.querySelector(
     `#projects-display-card-title-${projectCardId}`
   );
+  // define "title card text" variable with CSS id interpolation
+  const titleCardText = document.querySelector(
+    `#projects-display-card-title-text-${projectCardId}`
+  );
 
   // event listener for "mouseover" to remove filter (i.e. blur)
   card.addEventListener("mouseover", function () {
     image.style.filter = "none";
     titleCard.style.height = "60%";
+    titleCardText.style.animation = "none"
   });
 
   // event listener for "mouseout" to re-add filter (i.e. blur) and title card effects
   card.addEventListener("mouseout", function () {
     image.style.filter = "blur(4px)";
     titleCard.style.height = "24%";
+    titleCardText.style.animation = "bounce 2s ease infinite"
   });
 });
