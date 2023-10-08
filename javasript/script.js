@@ -29,7 +29,6 @@ projectCardIds.forEach((projectCardId) => {
     image.style.filter = "none";
     titleCard.style.height = "60%";
     titleCardText.style.animation = "none"
-    // titleCardChevron.style.transition = "opacity 0.5s ease";
     titleCardChevron.style.opacity = "0";
   });
 
@@ -38,7 +37,6 @@ projectCardIds.forEach((projectCardId) => {
     image.style.filter = "blur(4px)";
     titleCard.style.height = "24%";
     titleCardText.style.animation = "bounce 2s ease infinite"
-    // titleCardChevron.style.transition = "opacity 0.5s ease";
     titleCardChevron.style.opacity = "1";
   });
 });
