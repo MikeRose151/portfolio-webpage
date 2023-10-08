@@ -9,11 +9,11 @@ const projectCardIds = [
 ];
 
 // Loop through the project card IDs and set up event listeners
-projectCardIds.forEach(id) {
+projectCardIds.forEach((projectCardId) => {
   // define "card" variable with CSS id interpolation
-  const card = document.querySelector(`#project-display-card-${id}`);
+  const card = document.querySelector(`#project-display-card-${projectCardId}`);
   // define "image" variable with CSS id interpolation
-  const image = document.querySelector(`#project-display-card-image-${id}`);
+  const image = document.querySelector(`#project-display-card-image-${projectCardId}`);
 
   // event listener for "mouseover" to remove filter (i.e. blur)
   card.addEventListener("mouseover", function () {
@@ -25,4 +25,4 @@ projectCardIds.forEach(id) {
     image.style.filter = "blur(4px)";
   });
 
-}
+})
