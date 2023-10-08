@@ -88,12 +88,24 @@
 }
 
 @keyframes bounce {
-  0%, 20%, 50%, 80%, 100% {
+  0%,
+  20%,
+  50%,
+  80%,
+  100% {
     transform: translateY(0);
   }
   40% {
     transform: translateY(-4px); /* Adjust the bounce height */
   }
+}
+
+.projects-display-card-title-arrow {
+  position: absolute;
+  bottom: 4%;
+  left: 50%;
+  color: rgba(255, 255, 255, 0.6);
+  font-size: 16px;
 }
 
 .project-display-card-background {
