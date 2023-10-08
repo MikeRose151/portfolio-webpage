@@ -21,14 +21,14 @@ projectCardIds.forEach((projectCardId) => {
   );
   // define "title card chevron" variable with CSS id interpolation
   const titleCardChevron = document.querySelector(
-    `#projects-display-card-title-chevron-${projectCardId}`
+    `#projects-display-card-chevron-${projectCardId}`
   );
 
   // event listener for "mouseover" to remove filter (i.e. blur)
   card.addEventListener("mouseover", function () {
     image.style.filter = "none";
     titleCard.style.height = "60%";
-    titleCardText.style.animation = "none"
+    titleCardText.style.animation = "none";
     titleCardChevron.style.opacity = "0";
   });
 
@@ -36,7 +36,7 @@ projectCardIds.forEach((projectCardId) => {
   card.addEventListener("mouseout", function () {
     image.style.filter = "blur(4px)";
     titleCard.style.height = "24%";
-    titleCardText.style.animation = "bounce 2s ease infinite"
+    titleCardText.style.animation = "bounce 2s ease infinite";
     titleCardChevron.style.opacity = "1";
   });
 });
