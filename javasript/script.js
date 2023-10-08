@@ -1,49 +1,28 @@
 "use strict";
 
-const tatCard = document.querySelector("#project-display-card-tat");
-const tatImage = document.querySelector("#project-display-card-image-tat");
+// Define an array of project card IDs and corresponding image IDs
+const projectCardIds = [
+  "tat",
+  "enna",
+  "ten-number-challenge",
+  "rar"
+];
 
-tatCard.addEventListener("mouseover", function () {
-  tatImage.style.filter = "none";
-});
+// Loop through the project card IDs and set up event listeners
+projectCardIds.forEach(id) {
+  // define "card" variable with CSS id interpolation
+  const card = document.querySelector(`#project-display-card-${id}`);
+  // define "image" variable with CSS id interpolation
+  const image = document.querySelector(`#project-display-card-image-${id}`);
 
-tatCard.addEventListener("mouseout", function () {
-  tatImage.style.filter = "blur(4px)";
-});
+  // event listener for "mouseover" to remove filter (i.e. blur)
+  card.addEventListener("mouseover", function () {
+    image.style.filter = "none";
+  });
 
-const ennaCard = document.querySelector("#project-display-card-enna");
-const ennaImage = document.querySelector("#project-display-card-image-enna");
+  // event listener for "mouseout" to re-add filter (i.e. blur)
+  card.addEventListener("mouseout", function () {
+    image.style.filter = "blur(4px)";
+  });
 
-ennaCard.addEventListener("mouseover", function () {
-  ennaImage.style.filter = "none";
-});
-
-ennaCard.addEventListener("mouseout", function () {
-  ennaImage.style.filter = "blur(4px)";
-});
-
-const tenNumberChallengeCard = document.querySelector(
-  "#project-display-card-ten-number-challenge"
-);
-const tenNumberChallengeImage = document.querySelector(
-  "#project-display-card-image-ten-number-challenge"
-);
-
-tenNumberChallengeCard.addEventListener("mouseover", function () {
-  tenNumberChallengeImage.style.filter = "none";
-});
-
-tenNumberChallengeCard.addEventListener("mouseout", function () {
-  tenNumberChallengeImage.style.filter = "blur(4px)";
-});
-
-const rarCard = document.querySelector("#project-display-card-rar");
-const rarImage = document.querySelector("#project-display-card-image-rar");
-
-rarCard.addEventListener("mouseover", function () {
-  rarImage.style.filter = "none";
-});
-
-rarCard.addEventListener("mouseout", function () {
-  rarImage.style.filter = "blur(4px)";
-});
+}
