@@ -33,7 +33,7 @@ projectCardIds.forEach((projectCardId) => {
     image.style.filter = "none";
     titleCard.style.height = "60%";
     titleCardHeading.style.animation = "none";
-    titleCardParagraph.style.transition = "opacity 0.8s ease 0.6s";
+    titleCardParagraph.style.transition = "opacity 0.8s ease 0.4s";
     titleCardParagraph.style.opacity = "1";
     titleCardChevron.style.opacity = "0";
   });
