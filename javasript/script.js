@@ -15,9 +15,9 @@ projectCardIds.forEach((projectCardId) => {
   const titleCard = document.querySelector(
     `#projects-display-card-title-${projectCardId}`
   );
-  // define "title card text" variable with CSS id interpolation
-  const titleCardText = document.querySelector(
-    `#projects-display-card-title-text-${projectCardId}`
+  // define "title card heading" variable with CSS id interpolation
+  const titleCardHeading = document.querySelector(
+    `#projects-display-card-title-heading-${projectCardId}`
   );
   // define "title card chevron" variable with CSS id interpolation
   const titleCardChevron = document.querySelector(
@@ -28,7 +28,7 @@ projectCardIds.forEach((projectCardId) => {
   card.addEventListener("mouseover", function () {
     image.style.filter = "none";
     titleCard.style.height = "60%";
-    titleCardText.style.animation = "none";
+    titleCardHeading.style.animation = "none";
     titleCardChevron.style.opacity = "0";
   });
 
@@ -36,7 +36,7 @@ projectCardIds.forEach((projectCardId) => {
   card.addEventListener("mouseout", function () {
     image.style.filter = "blur(4px)";
     titleCard.style.height = "24%";
-    titleCardText.style.animation = "bounce 2s ease infinite";
+    titleCardHeading.style.animation = "bounce 2s ease infinite";
     titleCardChevron.style.opacity = "1";
   });
 });
