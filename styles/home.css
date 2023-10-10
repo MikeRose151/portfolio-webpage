@@ -100,6 +100,11 @@
   }
 }
 
+.projects-display-card-paragraph {
+  color: white;
+  padding: 16% 8% 0 8%;
+}
+
 .projects-display-card-chevron {
   position: absolute;
   bottom: 4%;
