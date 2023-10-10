@@ -13,7 +13,7 @@
     />
     <link
       rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
     />
   </head>
   <body>
@@ -22,7 +22,7 @@
         <nav class="nav">
           <div class="name"><a href="home.html"><strong>mike</strong>Rose</div></a>
           <ul class="menu">
-            <li><a href="#intro">Home</a></li>
+            <li><a href="#top">Home</a></li>
             <li><a href="about-me.html">About me</a></li>
             <li><a href="#projects">Projects</a></li>
             <li><a href="#contact">Get in touch</a></li>
@@ -41,7 +41,7 @@
           </div>
         </nav>
       </header>
-      <div class="main-content">
+      <div id="main-content">
         <div id="intro">
           <div id="intro-message">
             <div id="intro-title">Greetings 👋 and welcome to my portfolio.</div>
@@ -156,7 +156,14 @@
         </div>
         <div id="contact">
           <h1>Want to chat?</h1>
-          <div class="contact-form">
+          <p>
+            Feel free to email me at
+            <strong><a href = "mailto: michaelrose151@gmail.com">michaelrose151@gmail.com</a></strong>.
+            I'm always happy to chat about my projects or any employment opportunities you might have!
+          </p>
+          <!-- TO-DO LATER -->
+          <!-- Requires server-side scripting or a backend service to handle the email sending process -->
+          <!-- <div class="contact-form">
             <form action="#" method="post">
               <input type="text" id="name" name="name" placeholder="Your name (Optional)">
               <input type="email" id="email" name="email" placeholder="Your email address" required>
@@ -165,15 +172,7 @@
               <br>
               <button type="submit">Send to Mike</button>
             </form>
-          </div>
-          <!-- <form>
-            <label for="name">Name:</label><br />
-            <input type="text" id="name" name="name" /><br />
-            <label for="email">Email address:</label><br />
-            <input type="text" id="email" name="email" /><br />
-            <label for="message">Message:</label><br />
-            <textarea id="message" name="message" rows="4" cols="50"></textarea>
-          </form> -->
+          </div> -->
         </div>
       </div>
     </div>
