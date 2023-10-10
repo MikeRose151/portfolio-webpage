@@ -23,12 +23,18 @@ projectCardIds.forEach((projectCardId) => {
   const titleCardChevron = document.querySelector(
     `#projects-display-card-chevron-${projectCardId}`
   );
+  // define "title card paragraph" variable with CSS id interpolation
+  const titleCardParagraph = document.querySelector(
+    `#projects-display-card-paragraph-${projectCardId}`
+  );
 
   // event listener for "mouseover" to remove filter (i.e. blur)
   card.addEventListener("mouseover", function () {
     image.style.filter = "none";
     titleCard.style.height = "60%";
     titleCardHeading.style.animation = "none";
+    titleCardParagraph.style.transition = "opacity 0.8s ease 0.6s";
+    titleCardParagraph.style.opacity = "1";
     titleCardChevron.style.opacity = "0";
   });
 
@@ -37,6 +43,8 @@ projectCardIds.forEach((projectCardId) => {
     image.style.filter = "blur(4px)";
     titleCard.style.height = "24%";
     titleCardHeading.style.animation = "bounce 2s ease infinite";
+    titleCardParagraph.style.transition = "opacity 0.8s ease 0s";
+    titleCardParagraph.style.opacity = "0";
     titleCardChevron.style.opacity = "1";
   });
 });

@@ -102,7 +102,9 @@
 
 .projects-display-card-paragraph {
   color: white;
+  opacity: 0;
   padding: 16% 8% 0 8%;
+  transition: opacity 0.8s ease 0.4s;
 }
 
 .projects-display-card-chevron {
