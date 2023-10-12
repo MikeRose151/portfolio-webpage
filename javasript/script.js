@@ -49,17 +49,46 @@ projectCardIds.forEach((projectCardId) => {
   });
 });
 
+// Projects section scroll buttons
+const sliderButtonRight = document.getElementById("slider-button-right");
+const sliderButtonLeft = document.getElementById("slider-button-left");
+const sliderContainer = document.querySelector(".slider-container");
+const projectCard = document.querySelector(".projects-display-card");
 
-// Get references to the button and the slider container
-const sliderButtonRight = document.getElementById('slider-button-right');
-const sliderContainer = document.querySelector('.slider-container');
+// Variables to keep track of the currently visible card and container width
+let currentCardIndex = 0;
+const cardWidth = projectCard.offsetWidth;
 
-// Add a click event listener to the button
-sliderButtonRight.addEventListener('click', () => {
-  // Scroll the slider container to the right
-  sliderContainer.scrollBy({
-    top: 0, // No vertical scrolling
-    left: 100, // Adjust the amount to scroll horizontally
-    behavior: 'smooth', // You can use 'auto' for immediate scrolling
+// Add a click event listener to the right button
+sliderButtonRight.addEventListener("click", () => {
+  // Calculate how much to scroll to make the next card fully visible on the left
+  const nextCardIndex = currentCardIndex + 1;
+  const scrollAmount = nextCardIndex * cardWidth;
+
+  // Scroll the slider container to show the next card on the left
+  sliderContainer.scroll({
+    top: 0,
+    left: scrollAmount,
+    behavior: "smooth",
   });
+
+  // Update the currently visible card index
+  currentCardIndex = nextCardIndex;
+});
+
+// Add a click event listener to the left button
+sliderButtonLeft.addEventListener("click", () => {
+  // Calculate how much to scroll to show the previous card on the left
+  const previousCardIndex = currentCardIndex - 1;
+  const scrollAmount = previousCardIndex * cardWidth;
+
+  // Scroll the slider container to show the previous card on the left
+  sliderContainer.scroll({
+    top: 0,
+    left: scrollAmount,
+    behavior: "smooth",
+  });
+
+  // Update the currently visible card index
+  currentCardIndex = previousCardIndex;
 });
