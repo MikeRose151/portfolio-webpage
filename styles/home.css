@@ -69,6 +69,9 @@
   width: 4%;
   height: 100%;
   z-index: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 #projects-display-side-left {
@@ -104,14 +107,6 @@
   text-align: center;
   cursor: pointer;
   color: white;
-}
-
-.slider-button-left {
-  left: 10px;
-}
-
-.slider-button-right {
-  right: 10px;
 }
 
 .projects-display-card {
