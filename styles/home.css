@@ -70,15 +70,24 @@
   z-index: 1;
 }
 
+#projects-display-side-left {
+  left: 0;
+}
+
+#projects-display-side-right {
+  right: 0;
+}
+
 .slider-container {
   display: flex;
   overflow-x: scroll;
   scroll-snap-type: x mandatory;
-  white-space: nowrap;
   width: 100%;
   position: relative;
   margin: 0;
   padding-left: 4%;
+  padding-right: 4%;
+  box-sizing: border-box;
 }
 
 .slider-button {
