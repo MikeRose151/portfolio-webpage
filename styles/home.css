@@ -71,14 +71,6 @@
   z-index: 1;
 }
 
-#projects-display-side-left {
-  left: 0;
-}
-
-#projects-display-side-right {
-  right: 0;
-}
-
 .slider-container {
   display: flex;
   overflow-x: scroll;
