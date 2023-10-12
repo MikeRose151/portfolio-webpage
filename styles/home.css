@@ -16,6 +16,31 @@
   width: 68%;
 }
 
+.wave-emoji {
+  animation: wave 4s infinite;
+  display: inline-block;
+}
+
+@keyframes wave {
+  0%, 100% {
+    transform: rotate(10deg);
+  }
+  2.5%, 97.5% {
+    transform: rotate(-5deg);
+  }
+  5%, 95% {
+    transform: rotate(10deg);
+  }
+  7.5%, 92.5% {
+    transform: rotate(-5deg);
+  }
+  10%, 90% {
+    transform: rotate(10deg);
+  }
+}
+
+
+
 #intro-title {
   color: rgb(100, 0, 100);
   font-size: 36px;
