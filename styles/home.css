@@ -58,6 +58,7 @@
   border-radius: 4px;
   /* display: flex; */
   /* justify-content: space-between; */
+  height: 400px;
   width: 100%;
   overflow: hidden;
   position: relative;
@@ -114,7 +115,6 @@
   border-radius: 2px;
   height: 400px;
   width: 38%;
-  box-sizing: border-box;
   position: relative;
   flex-shrink: 0;
   flex: 0 0 auto;
