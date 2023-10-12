@@ -53,7 +53,8 @@
 }
 
 .projects-display {
-  border: black solid 1px;
+  border-top: black solid 1px;
+  border-bottom: black solid 1px;
   border-radius: 4px;
   /* display: flex; */
   /* justify-content: space-between; */
@@ -158,6 +159,7 @@
 
 .projects-display-card-paragraph {
   color: white;
+  opacity: 0;
   padding: 16% 8% 0 8%;
   pointer-events: none;
   transition: opacity 0.8s ease 0.4s;
