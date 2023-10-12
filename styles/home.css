@@ -118,6 +118,7 @@
   position: relative;
   flex-shrink: 0;
   flex: 0 0 auto;
+  overflow: hidden;
 }
 
 .projects-display-card-title {
