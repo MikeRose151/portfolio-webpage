@@ -48,3 +48,18 @@ projectCardIds.forEach((projectCardId) => {
     titleCardChevron.style.opacity = "1";
   });
 });
+
+
+// Get references to the button and the slider container
+const sliderButtonRight = document.getElementById('slider-button-right');
+const sliderContainer = document.querySelector('.slider-container');
+
+// Add a click event listener to the button
+sliderButtonRight.addEventListener('click', () => {
+  // Scroll the slider container to the right
+  sliderContainer.scrollBy({
+    top: 0, // No vertical scrolling
+    left: 100, // Adjust the amount to scroll horizontally
+    behavior: 'smooth', // You can use 'auto' for immediate scrolling
+  });
+});
