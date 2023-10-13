@@ -35,6 +35,7 @@ projectCardIds.forEach((projectCardId) => {
     titleCardHeading.style.animation = "none";
     titleCardParagraph.style.transition = "opacity 0.8s ease 0.4s";
     titleCardParagraph.style.opacity = "1";
+    titleCardParagraph.style.pointerEvents = "auto";
     titleCardChevron.style.opacity = "0";
   });
 
@@ -45,6 +46,7 @@ projectCardIds.forEach((projectCardId) => {
     titleCardHeading.style.animation = "bounce 2s ease infinite";
     titleCardParagraph.style.transition = "opacity 0.8s ease 0s";
     titleCardParagraph.style.opacity = "0";
+    titleCardParagraph.style.pointerEvents = "none";
     titleCardChevron.style.opacity = "1";
   });
 });
