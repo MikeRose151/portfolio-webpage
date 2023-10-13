@@ -22,24 +22,27 @@
 }
 
 @keyframes wave {
-  0%, 100% {
+  0%,
+  100% {
     transform: rotate(10deg);
   }
-  2.5%, 97.5% {
+  2.5%,
+  97.5% {
     transform: rotate(-5deg);
   }
-  5%, 95% {
+  5%,
+  95% {
     transform: rotate(10deg);
   }
-  7.5%, 92.5% {
+  7.5%,
+  92.5% {
     transform: rotate(-5deg);
   }
-  10%, 90% {
+  10%,
+  90% {
     transform: rotate(10deg);
   }
 }
-
-
 
 #intro-title {
   color: rgb(100, 0, 100);
@@ -163,6 +166,7 @@
   position: absolute;
   padding: 4% 0 0 8%;
   animation: bounce 2s ease infinite;
+  text-decoration: underline;
 }
 
 @keyframes bounce {
@@ -180,6 +184,7 @@
 
 .projects-display-card-paragraph {
   color: white;
+  font-size: 14px;
   opacity: 0;
   padding: 16% 8% 0 8%;
   pointer-events: none;
