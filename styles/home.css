@@ -156,7 +156,7 @@
   position: absolute;
   height: 24%;
   width: 100%;
-  transition: height 0.5s ease-in-out 0.25s;
+  transition: height 0.5s ease-in-out 0.6s;
 }
 
 .projects-display-card-title-heading {
@@ -188,7 +188,7 @@
   opacity: 0;
   padding: 16% 8% 0 8%;
   pointer-events: none;
-  transition: opacity 0.8s ease 0.4s;
+  transition: opacity 0.8s ease 0.8s;
 }
 
 .projects-display-card-chevron {

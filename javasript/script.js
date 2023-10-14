@@ -31,9 +31,10 @@ projectCardIds.forEach((projectCardId) => {
   // event listener for "mouseover" to remove filter (i.e. blur)
   card.addEventListener("mouseover", function () {
     image.style.filter = "none";
+    titleCard.style.transition = "height 0.5s ease-in-out 0.6s";
     titleCard.style.height = "60%";
     titleCardHeading.style.animation = "none";
-    titleCardParagraph.style.transition = "opacity 0.8s ease 0.4s";
+    titleCardParagraph.style.transition = "opacity 0.8s ease 0.8s";
     titleCardParagraph.style.opacity = "1";
     titleCardParagraph.style.pointerEvents = "auto";
     titleCardChevron.style.opacity = "0";
@@ -42,9 +43,10 @@ projectCardIds.forEach((projectCardId) => {
   // event listener for "mouseout" to re-add filter (i.e. blur) and title card effects
   card.addEventListener("mouseout", function () {
     image.style.filter = "blur(4px)";
+    titleCard.style.transition = "height 0.5s ease-in-out 0.2s";
     titleCard.style.height = "24%";
     titleCardHeading.style.animation = "bounce 2s ease infinite";
-    titleCardParagraph.style.transition = "opacity 0.8s ease 0s";
+    titleCardParagraph.style.transition = "opacity 0.2s ease 0.2s";
     titleCardParagraph.style.opacity = "0";
     titleCardParagraph.style.pointerEvents = "none";
     titleCardChevron.style.opacity = "1";
