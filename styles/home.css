@@ -191,6 +191,10 @@
   transition: opacity 0.8s ease 0.8s;
 }
 
+.projects-display-card-paragraph a {
+  background-color: white;
+}
+
 .projects-display-card-chevron {
   position: absolute;
   bottom: 4%;
