@@ -5,26 +5,36 @@ const modal = document.getElementById("my-modal");
 
 // Get the button that opens the modal
 const modalLinks = Array.from(document.getElementsByClassName("modal-link"));
-console.log(modalLinks);
 
 // Get the <span> element that closes the modal
 const span = document.getElementsByClassName("close")[0];
 
 // When the user clicks on the modal links, open the modal
 modalLinks.forEach((link) => {
-  link.addEventListener("click", function () {
+  link.addEventListener("click", function (e) {
+    e.preventDefault();
     modal.style.display = "block";
+    setTimeout(() => {
+      modal.style.opacity = "1";
+    }, 100);
   });
 });
 
 // When the user clicks on <span> (x), close the modal
 span.onclick = function () {
+  setTimeout(() => {
+    modal.style.opacity = "0";
+  }, 100);
   modal.style.display = "none";
 };
 
 // When the user clicks anywhere outside of the modal, close it
 window.onclick = function (event) {
-  if (event.target == modal) {
+  if (
+    event.target == modal ||
+    (event.target.closest(".nav") &&
+      !event.target.classList.contains("modal-link"))
+  ) {
     modal.style.display = "none";
   }
 };
