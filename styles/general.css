@@ -8,7 +8,7 @@ body {
   font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
     "Lucida Sans", Arial, sans-serif;
   padding: 0;
-  background-color: rgba(0, 100, 0, 0.04);;
+  background-color: rgba(0, 100, 0, 0.08);;
 }
 
 /* Before adding styling to header, the header was below the navbar so I did this */

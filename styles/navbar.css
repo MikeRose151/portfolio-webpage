@@ -1,6 +1,6 @@
 .nav {
   align-items: center;
-  background-color: white;
+  background-color: rgba(255, 255, 255, 0.98);
   border-bottom: 1px solid rgba(0, 0, 0, 0.05);
   display: flex;
   height: 64px;
