@@ -22,9 +22,7 @@ modalLinks.forEach((link) => {
 
 // When the user clicks on <span> (x), close the modal
 span.onclick = function () {
-  setTimeout(() => {
-    modal.style.opacity = "0";
-  }, 100);
+  modal.style.opacity = "0";
   modal.style.display = "none";
 };
 
@@ -35,6 +33,7 @@ window.onclick = function (event) {
     (event.target.closest(".nav") &&
       !event.target.classList.contains("modal-link"))
   ) {
+    modal.style.opacity = "0";
     modal.style.display = "none";
   }
 };
