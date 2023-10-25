@@ -8,7 +8,7 @@ body {
   font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
     "Lucida Sans", Arial, sans-serif;
   padding: 0;
-  background-color: rgba(0, 100, 0, 0.08);;
+  background-color: rgba(0, 100, 0, 0.08);
 }
 
 /* Before adding styling to header, the header was below the navbar so I did this */
@@ -34,6 +34,9 @@ mark {
 
 .container {
   margin: 0px 160px;
+  min-height: calc(
+    100vh - 64px - 34.5px
+  ); /* screen height minus navbar height and footer height */
 }
 
 #main-content {
