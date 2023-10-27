@@ -99,6 +99,10 @@
   border-radius: 4px;
 }
 
+.modal-content h1 {
+  color: white;
+}
+
 .close {
   color: rgb(180, 180, 180);
   float: right;
@@ -117,6 +121,10 @@
   border-top: 4px rgba(171, 171, 171, 0.484) solid;
   padding-bottom: 80px;
   scroll-margin-top: 64px;
+}
+
+h1 {
+  color: rgba(100, 0, 100, 0.96);
 }
 
 .projects-display {
