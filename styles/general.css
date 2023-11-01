@@ -7,6 +7,7 @@ body {
   margin: 0;
   font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
     "Lucida Sans", Arial, sans-serif;
+  font-size: 16px;
   padding: 0;
   background-color: rgba(0, 100, 0, 0.08);
 }
@@ -53,4 +54,10 @@ mark {
   text-align: center;
   width: 100%;
   z-index: 100;
+}
+
+@media (max-width: 1000px) {
+  .container {
+    margin: 0px 32px;
+  }
 }

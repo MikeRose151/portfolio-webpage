@@ -42,7 +42,6 @@
 .social-media {
   display: flex;
   justify-content: space-between;
-  padding-left: 4%;
 }
 
 .social-media-item a {
@@ -54,4 +53,10 @@
 
 .social-media-item a:hover {
   color: rgba(0, 100, 0, 0.5);
+}
+
+@media (max-width: 1000px) {
+  .nav {
+    padding: 0px 32px;
+  }
 }
