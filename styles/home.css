@@ -574,15 +574,11 @@ iframe {
   }
 
   #intro-title {
-    font-size: 6.5vh;
+    font-size: 6vh;
   }
 
   #intro-paragraph {
     font-size: 2.5vh;
-  }
-
-  #intro-image img {
-    width: 300px;
   }
 
   #intro-message {
