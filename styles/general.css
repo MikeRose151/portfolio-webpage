@@ -121,11 +121,19 @@ mark {
   .container {
     margin: 0px 140px;
   }
+
+  .nav {
+    padding: 0px 140px;
+  }
 }
 
 @media (max-width: 1380px) {
   .container {
     margin: 0px 120px;
+  }
+
+  .nav {
+    padding: 0px 120px;
   }
 }
 
@@ -133,11 +141,19 @@ mark {
   .container {
     margin: 0px 100px;
   }
+
+  .nav {
+    padding: 0px 100px;
+  }
 }
 
 @media (max-width: 1300px) {
   .container {
     margin: 0px 80px;
+  }
+
+  .nav {
+    padding: 0px 80px;
   }
 }
 
@@ -145,17 +161,29 @@ mark {
   .container {
     margin: 0px 60px;
   }
+
+  .nav {
+    padding: 0px 60px;
+  }
 }
 
 @media (max-width: 1220px) {
   .container {
     margin: 0px 40px;
   }
+
+  .nav {
+    padding: 0px 40px;
+  }
 }
 
 @media (max-width: 1180px) {
   .container {
     margin: 0px 20px;
+  }
+
+  .nav {
+    padding: 0px 20px;
   }
 }
 

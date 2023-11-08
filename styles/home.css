@@ -5,7 +5,7 @@
 
 #intro {
   display: flex;
-  justify-content: space-evenly;
+  justify-content: space-between;
   scroll-margin-top: 256px;
 }
 
@@ -76,6 +76,14 @@
   box-shadow: rgb(100, 0, 100) 0px 1px 4px;
   width: 240px;
   height: auto;
+}
+
+#intro-image-mobile img {
+  border-radius: 50%;
+  box-shadow: rgb(100, 0, 100) 0px 1px 4px;
+  width: 200px;
+  height: auto;
+  display: none;
 }
 
 .modal {
@@ -335,36 +343,7 @@ iframe {
   }
 }
 
-/*
-@media (max-width: 1421px) {
-  #intro-title {
-    font-size: 35.1px;
-  }
-
-  #intro-paragraph {
-    font-size: 19.5px;
-  }
-
-  #intro-image img {
-    width: 234px;
-  }
-}
-
-@media (max-width: 1392px) {
-  #intro-title {
-    font-size: 34.2px;
-  }
-
-  #intro-paragraph {
-    font-size: 19px;
-  }
-
-  #intro-image img {
-    width: 228px;
-  }
-}
-
-@media (max-width: 1365px) {
+@media (max-width: 1085px) {
   #intro-title {
     font-size: 33.3px;
   }
@@ -378,7 +357,7 @@ iframe {
   }
 }
 
-@media (max-width: 1338px) {
+@media (max-width: 1058px) {
   #intro-title {
     font-size: 32.4px;
   }
@@ -392,7 +371,7 @@ iframe {
   }
 }
 
-@media (max-width: 1310px) {
+@media (max-width: 1030px) {
   #intro-title {
     font-size: 31.5px;
   }
@@ -406,7 +385,7 @@ iframe {
   }
 }
 
-@media (max-width: 1283px) {
+@media (max-width: 1003px) {
   #intro-title {
     font-size: 30.6px;
   }
@@ -420,214 +399,41 @@ iframe {
   }
 }
 
-@media (max-width: 1255px) {
+@media (max-width: 975px) {
+  #intro {
+    display: grid;
+  }
+
   #intro-title {
-    font-size: 29.7px;
+    font-size: 30.6px;
   }
 
   #intro-paragraph {
-    font-size: 16.5px;
+    font-size: 17px;
+  }
+
+  #intro-message {
+    width: 96%;
   }
 
   #intro-image img {
-    width: 198px;
+    display: none;
+  }
+
+  #intro-image-mobile img{
+    display: block;
   }
 }
 
-@media (max-width: 1228px) {
+@media (max-width: 550px) {
   #intro-title {
-    font-size: 28.8px;
-  }
-
-  #intro-paragraph {
-    font-size: 16px;
-  }
-
-  #intro-image img {
-    width: 192px;
-  }
-}
-
-@media (max-width: 1200px) {
-  #intro-title {
-    font-size: 27.9px;
-  }
-
-  #intro-paragraph {
-    font-size: 15.5px;
-  }
-
-  #intro-image img {
-    width: 186px;
-  }
-}
-
-@media (max-width: 1173px) {
-  #intro-title {
-    font-size: 27px;
-  }
-
-  #intro-paragraph {
-    font-size: 15px;
-  }
-
-  #intro-image img {
-    width: 180px;
-  }
-}
-
-@media (max-width: 865px) {
-  #intro-title {
-    font-size: 26.1px;
-  }
-
-  #intro-paragraph {
-    font-size: 14.5px;
-  }
-
-  #intro-image img {
-    width: 174px;
-  }
-}
-
-@media (max-width: 838px) {
-  #intro-title {
-    font-size: 25.2px;
+    font-size: 40px;
   }
 
   #intro-paragraph {
     font-size: 14px;
-  }
-
-  #intro-image img {
-    width: 168px;
+    width: 100%;
   }
 }
-
-@media (max-width: 810px) {
-  #intro-title {
-    font-size: 24.3px;
-  }
-
-  #intro-paragraph {
-    font-size: 13.5px;
-  }
-
-  #intro-image img {
-    width: 162px;
-  }
-}
-
-@media (max-width: 783px) {
-  #intro-title {
-    font-size: 23.4px;
-  }
-
-  #intro-paragraph {
-    font-size: 13px;
-  }
-
-  #intro-image img {
-    width: 156px;
-  }
-}
-
-@media (max-width: 755px) {
-  #intro-title {
-    font-size: 22.5px;
-  }
-
-  #intro-paragraph {
-    font-size: 12.5px;
-  }
-
-  #intro-image img {
-    width: 150px;
-  }
-}
-
-@media (max-width: 728px) {
-  #intro-title {
-    font-size: 21.6px;
-  }
-
-  #intro-paragraph {
-    font-size: 12px;
-  }
-
-  #intro-image img {
-    width: 144px;
-  }
-}
-
-@media (max-width: 700px) {
-  #intro-title {
-    font-size: 20.7px;
-  }
-
-  #intro-paragraph {
-    font-size: 11.5px;
-  }
-
-  #intro-image img {
-    width: 138px;
-  }
-}
-
-@media (max-width: 673px) {
-  #intro-title {
-    font-size: 19.8px;
-  }
-
-  #intro-paragraph {
-    font-size: 11px;
-  }
-
-  #intro-image img {
-    width: 132px;
-  }
-}
-
-@media (max-width: 645px) {
-  #intro-title {
-    font-size: 18.9px;
-  }
-
-  #intro-paragraph {
-    font-size: 10.5px;
-  }
-
-  #intro-image img {
-    width: 126px;
-  }
-}
-
-@media (max-width: 618px) {
-  #intro-title {
-    font-size: 18px;
-  }
-
-  #intro-paragraph {
-    font-size: 10px;
-  }
-
-  #intro-image img {
-    width: 120px;
-  }
-}
-
-@media (max-width: 590px) {
-  #intro-title {
-    font-size: 17.1px;
-  }
-
-  #intro-paragraph {
-    font-size: 9.5px;
-  }
-
-  #intro-image img {
-    width: 114px;
-  }
-} */
 
 /* 360px is lowest to go to */
