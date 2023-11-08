@@ -81,7 +81,7 @@
 #intro-image-mobile img {
   border-radius: 50%;
   box-shadow: rgb(100, 0, 100) 0px 1px 4px;
-  width: 200px;
+  width: 28vw;
   height: auto;
   display: none;
 }
@@ -574,11 +574,11 @@ iframe {
   }
 
   #intro-title {
-    font-size: 54px;
+    font-size: 6.5vh;
   }
 
   #intro-paragraph {
-    font-size: 20px;
+    font-size: 2.5vh;
   }
 
   #intro-image img {
