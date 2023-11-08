@@ -91,7 +91,7 @@ projectCardIds.forEach((projectCardId) => {
   });
 });
 
-// Projects section scroll buttons
+// Scroll buttons for projects section
 const sliderButtonRight = document.getElementById("slider-button-right");
 const sliderButtonLeft = document.getElementById("slider-button-left");
 const sliderContainer = document.querySelector(".slider-container");
