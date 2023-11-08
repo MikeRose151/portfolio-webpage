@@ -592,6 +592,15 @@ iframe {
   #intro-image-mobile img{
     display: block;
   }
+
+  #intro-image-mobile-and-modal-link {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    position: relative;
+    width: 100%;
+    height: 100%;
+  }
 }
 
 /*
