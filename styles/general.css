@@ -50,12 +50,59 @@ mark {
   color: white;
   font-size: 12px;
   border-top: black 0.5px solid;
+  display: flex;
+  align-items: center;
+  justify-content: center;
   padding: 10px 0;
   text-align: center;
+  height: 2vh;
   width: 100%;
   z-index: 100;
 }
 
+@media (max-width: 1422px) {
+  .container {
+    margin: 0px 140px;
+  }
+}
+
+@media (max-width: 1380px) {
+  .container {
+    margin: 0px 120px;
+  }
+}
+
+@media (max-width: 1340px) {
+  .container {
+    margin: 0px 100px;
+  }
+}
+
+@media (max-width: 1300px) {
+  .container {
+    margin: 0px 80px;
+  }
+}
+
+@media (max-width: 1260px) {
+  .container {
+    margin: 0px 60px;
+  }
+}
+
+@media (max-width: 1220px) {
+  .container {
+    margin: 0px 40px;
+  }
+}
+
+@media (max-width: 1180px) {
+  .container {
+    margin: 0px 20px;
+  }
+}
+
+/*
 @media (max-width: 1174px) {
   .container {
     margin: 0px 140px;
@@ -96,4 +143,4 @@ mark {
   .container {
     margin: 0px 20px;
   }
-}
+} */

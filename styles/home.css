@@ -307,6 +307,35 @@ iframe {
   text-align: center;
 }
 
+@media (max-width: 1140px) {
+  #intro-title {
+    font-size: 35.1px;
+  }
+
+  #intro-paragraph {
+    font-size: 19.5px;
+  }
+
+  #intro-image img {
+    width: 234px;
+  }
+}
+
+@media (max-width: 1113px) {
+  #intro-title {
+    font-size: 34.2px;
+  }
+
+  #intro-paragraph {
+    font-size: 19px;
+  }
+
+  #intro-image img {
+    width: 228px;
+  }
+}
+
+/*
 @media (max-width: 1421px) {
   #intro-title {
     font-size: 35.1px;
@@ -599,6 +628,6 @@ iframe {
   #intro-image img {
     width: 114px;
   }
-}
+} */
 
 /* 360px is lowest to go to */
