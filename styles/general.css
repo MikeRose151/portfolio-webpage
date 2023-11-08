@@ -177,7 +177,7 @@ mark {
   }
 }
 
-@media (max-width: 1180px) {
+@media (max-width: 595px) {
   .container {
     margin: 0px 20px;
   }
@@ -186,46 +186,3 @@ mark {
     padding: 0px 20px;
   }
 }
-
-/*
-@media (max-width: 1174px) {
-  .container {
-    margin: 0px 140px;
-  }
-}
-
-@media (max-width: 1105px) {
-  .container {
-    margin: 0px 120px;
-  }
-}
-
-@media (max-width: 1065px) {
-  .container {
-    margin: 0px 100px;
-  }
-}
-
-@media (max-width: 1025px) {
-  .container {
-    margin: 0px 80px;
-  }
-}
-
-@media (max-width: 985px) {
-  .container {
-    margin: 0px 60px;
-  }
-}
-
-@media (max-width: 945px) {
-  .container {
-    margin: 0px 40px;
-  }
-}
-
-@media (max-width: 905px) {
-  .container {
-    margin: 0px 20px;
-  }
-} */
