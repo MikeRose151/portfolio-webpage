@@ -371,19 +371,6 @@ iframe {
   }
 }
 
-@media (max-width: 1090px) {
-  #intro-title {
-    font-size: 36px;
-  }
-
-  #intro-paragraph {
-    font-size: 20px;
-  }
-
-  #intro-image img {
-    width: 240px;
-  }
-}
 /*
 @media (max-width: 1043px) {
   #intro-title {
@@ -587,11 +574,15 @@ iframe {
   }
 
   #intro-title {
-    font-size: 30.6px;
+    font-size: 54px;
   }
 
   #intro-paragraph {
-    font-size: 17px;
+    font-size: 20px;
+  }
+
+  #intro-image img {
+    width: 300px;
   }
 
   #intro-message {
@@ -606,6 +597,7 @@ iframe {
     display: block;
   }
 }
+
 /*
 @media (max-width: 550px) {
   #intro-title {
