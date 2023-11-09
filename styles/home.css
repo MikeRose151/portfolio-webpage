@@ -346,7 +346,7 @@ h1 {
 .projects-display-side {
   background-color: rgba(0, 0, 0, 0.9);
   position: absolute;
-  width: 4%;
+  width: 5.5vw;
   height: 100%;
   z-index: 1;
   display: flex;
@@ -369,8 +369,8 @@ h1 {
   width: 100%;
   position: relative;
   margin: 0;
-  padding-left: 4%;
-  padding-right: 4%;
+  padding-left: 5.5vw;
+  padding-right: 5.5vw;
   box-sizing: border-box;
 }
 
@@ -378,12 +378,12 @@ h1 {
   position: absolute;
   top: 50%;
   transform: translateY(-50%);
-  width: 36px;
-  height: 36px;
+  width: 4vw;
+  height: 4vw;
   background: rgba(100, 0, 100);
   border: 1px solid rgb(255, 255, 255);
   border-radius: 50%;
-  font-size: 16px;
+  font-size: 2vw;
   text-align: center;
   cursor: pointer;
   color: white;
@@ -834,6 +834,21 @@ iframe {
 
   #projects {
     scroll-margin-top: 8.3vh;
+  }
+
+  .slider-container {
+    padding-left: 10vw;
+    padding-right: 10vw;
+  }
+
+  .projects-display-side {
+    width: 10vw;
+  }
+
+  .slider-button {
+    width: 8vw;
+    height: 8vw;
+    font-size: 4vw;
   }
 
   #contact {
