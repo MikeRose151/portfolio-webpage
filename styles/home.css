@@ -862,8 +862,7 @@ h1 {
   }
 
   .gif {
-    width: 100%;
-    margin-top: 16%;
+    max-width: 100%;
   }
 
   .footer {
