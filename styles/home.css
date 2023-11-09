@@ -761,12 +761,12 @@ iframe {
 
 @media (max-width: 1090px) {
   .nav {
-    height: 128px;
+    height: 8.3vh;
   }
 
   .container {
     min-height: calc(
-      100vh - 128px - 34.5px
+      100vh - 8.3vh - 34.5px
     );
   }
 
@@ -787,11 +787,11 @@ iframe {
   }
 
   #main-content {
-    margin-top: 128px;
+    margin-top: 8.3vh;
   }
 
   .section {
-    height: calc(100vh - 128px);
+    height: calc(100vh - 8.3vh);
   }
 
   #intro {
@@ -833,11 +833,11 @@ iframe {
   }
 
   #projects {
-    scroll-margin-top: 128px;
+    scroll-margin-top: 8.3vh;
   }
 
   #contact {
-    scroll-margin-top: 128px;
+    scroll-margin-top: 8.3vh;
   }
 
   #contact p {
