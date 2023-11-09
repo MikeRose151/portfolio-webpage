@@ -760,6 +760,40 @@ iframe {
 } */
 
 @media (max-width: 1090px) {
+  .nav {
+    height: 128px;
+  }
+
+  .container {
+    min-height: calc(
+      100vh - 128px - 34.5px
+    );
+  }
+
+  .name a {
+    font-size: 48px;
+  }
+
+  .nav-links {
+    font-size: 32px;
+  }
+
+  .menu li {
+    padding: 0 4px;
+  }
+
+  .social-media-item a {
+    font-size: 54px;
+  }
+
+  #main-content {
+    margin-top: 128px;
+  }
+
+  .section {
+    height: calc(100vh - 128px);
+  }
+
   #intro {
     display: grid;
   }
@@ -796,6 +830,14 @@ iframe {
   #modal-link-container {
     padding-left: 2vw;
     text-align: center;
+  }
+
+  #projects {
+    scroll-margin-top: 128px;
+  }
+
+  #contact {
+    scroll-margin-top: 128px;
   }
 
   #contact p {
