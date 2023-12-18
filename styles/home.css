@@ -565,7 +565,6 @@ h1 {
   }
 }
 
-
 @media (max-width: 1070px) {
   #intro-title {
     font-size: 31.5px;
@@ -859,6 +858,10 @@ h1 {
 
   .projects-display-side {
     width: 10vw;
+  }
+
+  .project-display-card-background {
+    filter: none;
   }
 
   .slider-button {
