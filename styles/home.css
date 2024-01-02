@@ -294,7 +294,7 @@ mark {
 .modal-content {
   background-color: rgba(100, 0, 100, 0.96);
   color: white;
-  margin: 15% auto; /* 15% from the top and centered */
+  margin: 96px auto;
   padding: 20px;
   border: 1px solid #ffffff;
   width: calc(
@@ -845,6 +845,10 @@ h1 {
   #modal-link-container {
     padding-left: 2vw;
     text-align: center;
+  }
+
+  .modal-content {
+    width: calc(100vw - 80px);
   }
 
   #projects {
